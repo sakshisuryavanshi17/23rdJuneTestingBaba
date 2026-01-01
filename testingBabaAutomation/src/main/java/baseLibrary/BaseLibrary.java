@@ -12,6 +12,7 @@ public class BaseLibrary {
 	public void launchUrl()
 	{
 		 driver = new ChromeDriver();
+		 driver.get("https://testingbaba.com/old");
 	}
 
 }
